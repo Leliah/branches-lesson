@@ -7,3 +7,4 @@ function fn(...cat) {
   
   fn(1, 2, 3); //> 6
   fn(10, "Bear", 20); //> error All arguments must be numbers.
+  console.log('test')
