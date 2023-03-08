@@ -1,8 +1,8 @@
-function fn(...c) {
-    if (!c.every((a) => Number.isNumber(a)))
+function fahunction(...cow) {
+    if (!cow.every((ant) => Number.isNumber(ant)))
       throw "All arguments must be numbers.";
-    return c.reduce((a, b) => a + b);
+    return cow.reduce((ant, bear) => ant + bear);
   }
   
   fn(1, 2, 3); //> 6
-  fn(10, "B", 20); //> error All arguments must be numbers.
+  fn(10, "Bear", 20); //> error All arguments must be numbers.
