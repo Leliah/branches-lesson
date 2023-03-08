@@ -1,7 +1,8 @@
-function fahunction(...cow) {
-    if (!cow.every((ant) => Number.isNumber(ant)))
+
+function fn(...cat) {
+    if (!cat.every((apple) => Number.isNumber(apple)))
       throw "All arguments must be numbers.";
-    return cow.reduce((ant, bear) => ant + bear);
+    return cat.reduce((apple, banana) => apple + banana);
   }
   
   fn(1, 2, 3); //> 6
